@@ -11,7 +11,11 @@
         @apply flex justify-between flex-col items-center relative bg-gradient-to-r from-sky-300/10 to-[#96C9F4]/30 bg-white content-none shadow-[7px_20px_40px_3px_rgba(18,94,204,0.2)] border border-sky-100 md:w-[400px] md:rounded-2xl md:h-[530px] h-full w-full
     };
     .whiteSide{
-        @apply  w-full flex items-center justify-center rounded-3xl md:rounded-b-2xl rounded-b-none
-         bg-white h-[200px]
+        @apply  w-full flex flex-col items-center justify-center gap-7 rounded-3xl rounded-b-2xl border-b-0 border-l-0 border-r-0 bg-white h-[200px]
+    };
+    .bigInput{
+       @apply  w-[300px]  caret-[#0d324d]  placeholder:text-blue-300 px-2 py-3  focus:border-[#0d4576] transition-colors duration-200  focus:border-[2px] outline-none rounded-lg text-[#0d324d]
     }
+
+
 }
